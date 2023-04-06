@@ -1,0 +1,7 @@
+*{
+    background-color: black;
+}
+
+.menuInicial li{
+    display: inline;
+}

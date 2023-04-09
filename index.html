@@ -9,23 +9,44 @@
   </head>
   <body>
     <header>
-      <nav>
-        <a class="logo" href="/">SOU FREELA</a>
+      <nav class="nav-bar">
+        <div class=" logo">
+         <h1>SOU FREELA</h1>
+        </div>
 
-        <ul class="nav-list">
-          <li><a href="#">Cadastro</a></li>
-          <li><a href="#">Contatos</a></li>
-          <li><a href="#">Quem Somos</a></li>
+
+        <div class="nav-list">
+        <ul>
+          <li class="nav-item"><a href="#" class="nav-link">Cadastra</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Contatos</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Quem somos</a></li>
         </ul>
+        </div>
+
+        <div class="login-button">
+          <button><a href="#">Contratar</a></button>
+        </div>
+
+        <div class="mobile-menu-icon">
+          <button onclick="menuShow()"><img class="icon" src="fotos/menu_white_36dp.svg"></button>
+
+        </div>
+
+        <div class="mobile-menu">
+          <ul>
+            <li class="nav-item"><a href="#" class="nav-link">Cadastra</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contatos</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Quem somos</a></li>
+          </ul>
+
+          <div class="login-button">
+            <button><a href="#">Contratar</a></button>
+          </div>
+
+        </div>
       </nav>
     </header>
-    <main>
-      <div class="buto">
-        <a href=""></a><button>CONTRATAR</button>
-        <a href=""></a><button>CADASTRA</button>
-      </div>
-
-    </main>
+    
     <script src="mobile-navbar.js"></script>
   </body>
 </html>
